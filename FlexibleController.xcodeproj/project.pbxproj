@@ -12,6 +12,9 @@
 		268C554C2227D71A00986EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C554A2227D71A00986EB2 /* Main.storyboard */; };
 		268C554E2227D71C00986EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268C554D2227D71C00986EB2 /* Assets.xcassets */; };
 		268C55512227D71C00986EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C554F2227D71C00986EB2 /* LaunchScreen.storyboard */; };
+		268C55592227D7C100986EB2 /* knStaticListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C55582227D7C100986EB2 /* knStaticListController.swift */; };
+		268C555B2227D81700986EB2 /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C555A2227D81700986EB2 /* knConstraints.swift */; };
+		268C555D2227E80200986EB2 /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C555C2227E80200986EB2 /* knUIMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		268C554D2227D71C00986EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268C55502227D71C00986EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268C55522227D71C00986EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268C55582227D7C100986EB2 /* knStaticListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knStaticListController.swift; sourceTree = "<group>"; };
+		268C555A2227D81700986EB2 /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		268C555C2227E80200986EB2 /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				268C55462227D71A00986EB2 /* AppDelegate.swift */,
+				268C555A2227D81700986EB2 /* knConstraints.swift */,
+				268C555C2227E80200986EB2 /* knUIMaker.swift */,
 				268C55482227D71A00986EB2 /* ViewController.swift */,
 				268C554A2227D71A00986EB2 /* Main.storyboard */,
 				268C554D2227D71C00986EB2 /* Assets.xcassets */,
 				268C554F2227D71C00986EB2 /* LaunchScreen.storyboard */,
 				268C55522227D71C00986EB2 /* Info.plist */,
+				268C55582227D7C100986EB2 /* knStaticListController.swift */,
 			);
 			path = FlexibleController;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				268C55492227D71A00986EB2 /* ViewController.swift in Sources */,
+				268C555D2227E80200986EB2 /* knUIMaker.swift in Sources */,
 				268C55472227D71A00986EB2 /* AppDelegate.swift in Sources */,
+				268C55592227D7C100986EB2 /* knStaticListController.swift in Sources */,
+				268C555B2227D81700986EB2 /* knConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM62LBZ4XN;
 				INFOPLIST_FILE = FlexibleController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM62LBZ4XN;
 				INFOPLIST_FILE = FlexibleController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
